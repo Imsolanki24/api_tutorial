@@ -1,5 +1,8 @@
+import 'package:api_tutorial/example_five.dart';
 import 'package:api_tutorial/example_four.dart';
 import 'package:api_tutorial/home_screen.dart';
+import 'package:api_tutorial/imagesUpload.dart';
+import 'package:api_tutorial/signup.dart';
 import 'package:flutter/material.dart';
 import 'example.dart';
 import 'example_three.dart';
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Example_Four(),
+      home: ImagesUpload(),
     );
   }
 }
